@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Zundui</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #2980b9;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border-top: 8px solid var(--primary-color);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .header-text h1 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.8em;
+            letter-spacing: -1px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.95em;
+            color: var(--secondary-color);
+        }
+
+        .contact-info p {
+            margin: 2px 0;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+            padding: 5px;
+            background: #fff;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.1em;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .entry {
+            margin-bottom: 20px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .entry-sub {
+            color: var(--secondary-color);
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: #999;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+            .profile-img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="header-text">
+            <h1>Zundui</h1>
+            <div class="contact-info">
+                <p><strong>Student ID:</strong> 114035084</p>
+                <p><strong>Email:</strong> reketsda@gmail.com</p>
+            </div>
+        </div>
+        <img src="image001.jpg" alt="Zundui's Portrait" class="profile-img">
+    </header>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>
+            Detail-oriented Finance student at Asia University with a focus on analytical thinking and financial principles. Committed to developing a deep understanding of market dynamics and corporate financial strategies through rigorous academic study and practical application.
+        </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span>Asia University</span>
+                <span>[Expected Graduation Year]</span>
+            </div>
+            <div class="entry-sub">Bachelor of Finance / Business Administration</div>
+            <p>Relevant Coursework: Finance, Economic Analysis, Financial Management, and Accounting.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <span>[Current Role/Internship]</span>
+                <span>[Dates]</span>
+            </div>
+            <div class="entry-sub">[Company Name]</div>
+            <ul>
+                <li>Applied financial modeling techniques to analyze data sets.</li>
+                <li>Collaborated with team members to prepare reports and presentations.</li>
+                <li>Maintained high standards of accuracy in data entry and financial documentation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>GitHub Professional Portfolio &copy; 2026</p>
+    </footer>
+</div>
+
+</body>
+</html>
